@@ -763,7 +763,7 @@ class Sheet {
   }
 
   ///
-  /// Appends [row] iterables just post the last filled `rowIndex`.
+  /// Appends [row] iterables just past the last filled `rowIndex`.
   ///
   appendRow(List<dynamic> row) {
     int targetRow = this.maxRows;
